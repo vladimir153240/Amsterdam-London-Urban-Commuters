@@ -1,0 +1,60 @@
+=== agency.txt ===
+Columns: ['agency_id', 'agency_name', 'agency_url', 'agency_timezone', 'agency_phone']
+  agency_id     agency_name              agency_url   agency_timezone     agency_phone
+0     ALLGO  allGo (Keolis)  http://www.allgobus.nl  Europe/Amsterdam   003188-0331360
+1       ARR          Arriva   https://www.arriva.nl  Europe/Amsterdam  0031800-0232545
+2        BN        Blauwnet  http://www.blauwnet.nl  Europe/Amsterdam              NaN
+
+=== calendar_dates.txt ===
+Columns: ['service_id', 'date', 'exception_type']
+   service_id      date  exception_type
+0           1  20260407               1
+1           2  20260407               1
+2           2  20260430               1
+
+=== feed_info.txt ===
+Columns: ['feed_publisher_name', 'feed_id', 'feed_publisher_url', 'feed_lang', 'feed_start_date', 'feed_end_date', 'feed_version']
+  feed_publisher_name feed_id   feed_publisher_url feed_lang  feed_start_date  feed_end_date  feed_version
+0               OVapi      NL  http://www.ovapi.nl        nl         20260408       20261212          9301
+
+=== routes.txt ===
+Columns: ['route_id', 'agency_id', 'route_short_name', 'route_long_name', 'route_desc', 'route_type', 'route_color', 'route_text_color', 'route_url']
+   route_id agency_id route_short_name                                    route_long_name  route_desc  route_type route_color route_text_color  route_url
+0    134842     ALLGO              326        Lijn 326 (R-net) Almere Stad - Blaricum P+R         NaN           3      e00713           ffffff        NaN
+1    134844     ALLGO              330     Lijn 330 (R-net) Almere Buiten - A'dam Bijlmer         NaN           3      e00713           ffffff        NaN
+2    134845     ALLGO              N22  Lijn N22 (NightGo) A'dam Leidsepl.- Almere Buiten         NaN           3      f59c00           000000        NaN
+
+=== shapes.txt ===
+Columns: ['shape_id', 'shape_pt_sequence', 'shape_pt_lat', 'shape_pt_lon', 'shape_dist_traveled']
+   shape_id  shape_pt_sequence  shape_pt_lat  shape_pt_lon  shape_dist_traveled
+0   1226244                  0     52.069985      4.392735                    0
+1   1226244                  1     52.069435      4.393520                   82
+2   1226244                  2     52.069301      4.393713                  101
+
+=== stop_times.txt ===
+Columns: ['trip_id', 'stop_sequence', 'stop_id', 'stop_headsign', 'arrival_time', 'departure_time', 'pickup_type', 'drop_off_type', 'timepoint', 'shape_dist_traveled', 'fare_units_traveled']
+     trip_id  stop_sequence  stop_id  stop_headsign arrival_time departure_time  pickup_type  drop_off_type  timepoint  shape_dist_traveled  fare_units_traveled
+0  260620665              1  2993990            NaN     24:37:00       24:37:00            0              1          1                60424                    0
+1  260620665              5  2992066            NaN     24:50:00       24:50:00            1              0          1                81465                    0
+2  260620735              1  2993758            NaN     10:20:00       10:20:00            0              1          1                    1                    0
+
+=== stops.txt ===
+Columns: ['stop_id', 'stop_code', 'stop_name', 'stop_lat', 'stop_lon', 'location_type', 'parent_station', 'stop_timezone', 'wheelchair_boarding', 'platform_code', 'zone_id']
+   stop_id  stop_code       stop_name   stop_lat  stop_lon  location_type   parent_station  stop_timezone  wheelchair_boarding  platform_code    zone_id
+0  2323991        NaN  Koln-Ehrenfeld  50.951582  6.917458              0  stoparea:177908            NaN                  NaN            NaN  IFF:kolne
+1  2324425        NaN  Sappemeer Oost  53.158998  6.795339              0   stoparea:18130            NaN                  NaN            1.0    IFF:spm
+2  2324426        NaN  Sappemeer Oost  53.158848  6.796734              0   stoparea:18130            NaN                  NaN            2.0    IFF:spm
+
+=== transfers.txt ===
+Columns: ['from_stop_id', 'to_stop_id', 'from_route_id', 'to_route_id', 'from_trip_id', 'to_trip_id', 'transfer_type', 'min_transfer_time']
+   from_stop_id  to_stop_id  from_route_id  to_route_id  from_trip_id  to_trip_id  transfer_type  min_transfer_time
+0       2861808     2861809            NaN          NaN     313319071   313311143              3                NaN
+1       2861808     2861809            NaN          NaN     313319071   313318344              3                NaN
+2       2861808     2861810            NaN          NaN     345240731   346231354              3                NaN
+
+=== trips.txt ===
+Columns: ['route_id', 'service_id', 'trip_id', 'realtime_trip_id', 'trip_headsign', 'trip_short_name', 'trip_long_name', 'direction_id', 'block_id', 'shape_id', 'wheelchair_accessible', 'bikes_allowed']
+   route_id  service_id    trip_id realtime_trip_id       trip_headsign  trip_short_name trip_long_name  direction_id  block_id  shape_id  wheelchair_accessible  bikes_allowed
+0     17562         610  260620735      IFF:IC:2835    Utrecht Centraal             2835      Intercity             0       NaN   1533206                      0              1
+1     17562        1834  260620765      IFF:IC:2825    Utrecht Centraal             2825      Intercity             0       NaN   1533206                      0              1
+2     17562        1969  260620779      IFF:IC:2830  Rotterdam Centraal             2830      Intercity             1       NaN   1533207                      0              1
