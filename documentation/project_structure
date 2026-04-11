@@ -48,10 +48,28 @@ The core rule: one row = one trip observation = one choice occasion. The columns
 2.5 Normalisation and Feature Construction
 
 Phase 3 — Statistical Analysis and Hypothesis Testing
+3.1  Mode share comparison — Amsterdam City (H3 preview)
+3.2  Travel time distributions by mode
+3.3  Cost distributions by mode
+3.4  Peak vs off-peak patterns
+3.5  H1: Pearson correlation — PT variability vs mode share
+3.6  H2: Two-way ANOVA — peak-hour variance by mode
+3.7  H3 preview: Chi-squared — region × mode choice independence
+3.8  Summary table of all test results
 
 Phase 4 — Discrete Choice Modelling
+4.1  Model specification — utility function, parameters
+4.2  MNL-Amsterdam estimation (biogeme)
+4.3  Goodness of fit — ρ², AIC, BIC, hit rate
+4.4  Value of Travel Time derivation — Delta method CI
 
 Phase 5 — Results, Discussion and Conclusions
+5. Results, Discussion and Conclusions
+   5.1  Hypothesis results summary table
+   5.2  MNL results table — both cities side by side
+   5.3  VoT estimates vs government benchmarks
+   5.4  Limitations and scop
+   5.5  References
 
 
 
