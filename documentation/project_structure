@@ -1,0 +1,75 @@
+The project will be developed in 5 Phases as presented below. Each Phase will be delivered in separate notebook for better clarity.
+
+Phase 1          Phase 2          Phase 3          Phase 4          Phase 5
+─────────        ─────────        ─────────        ─────────        ─────────
+Problem &        Data             Statistical      Discrete         Results &
+Theory           Pipeline         Testing          Choice           Discussion
+                                  (H1, H2)         Model (H3)
+
+
+How the three hypothesis forms a coherent narrative
+
+H1 (Associative)          H2 (Causal)               H3 (Model)
+─────────────────         ─────────────────         ─────────────────
+Unreliability is          Peak hour penalises       Preferences and VoT
+correlated with           car users more than       differ structurally
+lower PT share            metro users               across cities
+        │                         │                         │
+        └─────────────────────────┴─────────────────────────┘
+                                  │
+                    All three feed into one story:
+          "Travel time quality — its variance, its cost,
+           and how travellers value it — is a primary
+           driver of urban mode choice."
+
+Phase 1 - Problem Formulation
+1.1 Problem Statement and Significance. 
+1.2 Theoretical Framework - Random Utility Theory 
+1.3 References 
+
+Phase 2 - Data Pipeline (Data Sources, Acquisition, Cleaning and Preparation)
+2.1 Data Source Declaration - document sources in the notebook
+  - ODiN 2022/2023AmsterdamSame as NTS — mode, purpose, time, socioeconomicsCSVCBS StatLine open download
+  - GVB/NS GTFS + OpenRouteServiceAmsterdamSame for Amsterdam tram/metro/bus + cycling/car routingGTFS/APIOpen
+2.2 Filtering and Scoping Down 
+2.3 Tidy Data Construction: 
+The core rule: one row = one trip observation = one choice occasion. The columns must include:
+* person_id, city, chosen_mode
+* tt_bus, tt_metro, tt_car, tt_bike — travel times for all alternatives (including unchosen)
+* cost_bus, cost_metro, cost_car, cost_bike — generalised costs for all alternatives
+* acc_bus, acc_metro, acc_car, acc_bike — access times for all alternatives
+* wait_bus, wait_metro — waiting times (PT modes only)
+* income_group, car_available, trip_distance_km, departure_hour
+2.4 Data Cleaning - Follow a treatment rule to remove wrong entries from unusual realities:
+* Travel times > 180 minutes for a commute: flag, investigate, likely remove
+* Zero travel time: data error,so remove it
+* Missing cost: impute using mode-specific average per city, log the imputation
+* Implausible access time (> 60 minutes walk to a bus stop): flag, keep but annotate
+2.5 Normalisation and Feature Construction
+
+Phase 3 — Statistical Analysis and Hypothesis Testing
+3.1  Mode share comparison — Amsterdam City (H3 preview)
+3.2  Travel time distributions by mode
+3.3  Cost distributions by mode
+3.4  Peak vs off-peak patterns
+3.5  H1: Pearson correlation — PT variability vs mode share
+3.6  H2: Two-way ANOVA — peak-hour variance by mode
+3.7  H3 preview: Chi-squared — region × mode choice independence
+3.8  Summary table of all test results
+
+Phase 4 — Discrete Choice Modelling
+4.1  Model specification — utility function, parameters
+4.2  MNL-Amsterdam estimation (biogeme)
+4.3  Goodness of fit — ρ², AIC, BIC, hit rate
+4.4  Value of Travel Time derivation — Delta method CI
+
+Phase 5 — Results, Discussion and Conclusions
+5. Results, Discussion and Conclusions
+   5.1  Hypothesis results summary table
+   5.2  MNL results table — both cities side by side
+   5.3  VoT estimates vs government benchmarks
+   5.4  Limitations and scop
+   5.5  References
+
+
+
