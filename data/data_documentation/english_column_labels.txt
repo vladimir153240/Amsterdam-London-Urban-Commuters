@@ -1,0 +1,247 @@
+New person
+Unique ID for each respondent
+Sample indicator
+Response mode
+Number of persons in household
+Household composition
+Position of respondent in household relative to household core
+Number of household members under 6 years old
+Number of household members aged 6 to 11
+Number of household members aged 12 to 17
+Number of household members aged 18 or older
+Residential address postal code
+Residential municipality
+Urbanization class of residential municipality
+Population size class of residential municipality
+Province of residential municipality
+COROP area of residential municipality
+Amsterdam neighborhood
+Amsterdam Metropolitan Area
+Rotterdam The Hague Metropolitan Area
+Province of Utrecht
+Gender of respondent
+Age of respondent
+Age class of respondent
+Country of origin of respondent
+Paid work of respondent
+Unpaid activity of respondent
+Social participation of respondent
+Highest level of education completed by respondent
+Household disposable income (10% groups/deciles)
+Standardized household disposable income (10% groups/deciles)
+Deviation from low-income threshold
+Deviation from social minimum
+Household wealth (10% groups/deciles)
+Number of car driver licenses in household
+Number of motorcycle licenses in household
+Number of moped licenses in household
+Respondent possesses car driver license
+Respondent possesses motorcycle license
+Respondent possesses moped license
+Number of passenger cars in household
+Number of passenger cars leased or in company name in household
+Number of passenger cars in respondent’s name
+Primary fuel type of youngest passenger car in household
+Secondary fuel type of youngest passenger car in household
+Electric car type of youngest passenger car in household
+Year of manufacture of youngest passenger car in household
+Year of manufacture class of youngest passenger car in household
+Weight class of youngest passenger car in household
+Ownership/Title of youngest passenger car in household
+Primary fuel type of second youngest passenger car in household
+Secondary fuel type of second youngest passenger car in household
+Electric car type of second youngest passenger car in household
+Year of manufacture of second youngest passenger car in household
+Year of manufacture class of second youngest passenger car in household
+Weight class of second youngest passenger car in household
+Ownership/Title of second youngest passenger car in household
+Primary fuel type of lease or company car in household
+Secondary fuel type of lease or company car in household
+Electric car type of lease or company car in household
+Year of manufacture of lease or company car in household
+Year of manufacture class of lease or company car in household
+Weight class of lease or company car in household
+Number of motorcycles in household
+Number of motorcycles in respondent’s name
+Number of mopeds (45km/h) in household
+Number of mopeds (45km/h) in respondent’s name
+Number of light mopeds (25km/h) in household
+Number of light mopeds (25km/h) in respondent’s name
+Electric bicycle in household
+Household vehicle ownership
+Respondent vehicle ownership
+Frequency of walking outdoors
+Frequency of using non-electric bicycle
+Frequency of using electric bicycle
+Frequency of using bus, tram, and/or metro
+Frequency of using train
+Frequency of using car as driver
+Frequency of using car as passenger
+Frequency of using moped or light moped
+Frequency of using motorcycle
+Respondent possesses Student Public Transport card
+Transport mode with most kilometers to work
+Receives compensation from employer for travel to work
+Travel allowance is a fixed amount per period
+Compensation per actual kilometer driven
+Compensation of fuel costs
+Compensation of public transport subscription or trips
+Compensation of vehicle purchase costs
+Lease vehicle or employer company vehicle
+Compensation is a mobility budget
+Parking costs
+Storage/Bicycle parking costs
+Other compensation
+Work location, how often reachable when you want to go there?
+Reason A work location not always reachable
+Reason B work location not always reachable
+Education location, how often reachable when you want to go there?
+Reason A education location not always reachable
+Reason B education location not always reachable
+Supermarket, how often reachable when you want to go there?
+Reason A supermarket not always reachable
+Reason B supermarket not always reachable
+Hospital, how often reachable when you want to go there?
+Reason A hospital not always reachable
+Reason B hospital not always reachable
+General practitioner, how often reachable when you want to go there?
+Reason A general practitioner not always reachable
+Reason B general practitioner not always reachable
+Train station, how often reachable when you want to go there?
+Reason A train station not always reachable
+Reason B train station not always reachable
+Bus, tram, or metro stop, how often reachable when you want to go there?
+Reason A bus, tram, or metro stop not always reachable
+Reason B bus, tram, or metro stop not always reachable
+Family and friends, how often reachable when you want to go there?
+Reason A family and friends not always reachable
+Reason B family and friends not always reachable
+Sports location or hobby club, how often reachable when you want to go there?
+Reason A sports location or hobby club not always reachable
+Reason B sports location or hobby club not always reachable
+Reporting year
+Reporting month
+Reporting week
+Reporting day
+Reporting weekday
+Reporting day is a public holiday
+Respondent went out in the Netherlands
+Reason for not going out
+Not gone out: duration of illness
+Not gone out: weather type
+Not gone out: reason stay abroad
+Number of regular trips by respondent in the Netherlands
+Number of regular public transport trips by respondent in the Netherlands
+Number of trip series (e.g. professional) without non-professional truck use in NL
+Type of electric bicycle used
+Used car in own name
+Used car in household member’s name
+Used employer lease car
+Used private lease car
+Used car in company name
+Used car-sharing organization vehicle
+Used private shared car via online platform
+Used shared car with friends/acquaintances
+Used loaner car or borrowed car
+Used rental car
+Used another type of car
+Specifics on reporting day
+Specific: other addresses
+Specific: other transport modes
+Specific: other times
+Specific: other travel duration
+Specific: other route
+Reason for different travel pattern
+Total travel duration for regular trips in NL (in minutes)
+Total distance traveled for regular trips in NL (in hectometers)
+Total distance traveled for trip series in NL (in hectometers)
+New trip
+Unique ID for each trip
+Trip number
+Trip departure point is arrival point
+Number of trip segments/legs
+Destination/Goal
+Trip purpose
+Trip purpose classification
+Multiple shops visited
+Nature of work/activities
+Trip departure location
+Departure area
+Postal code of departure point
+Postal code of departure point abroad
+Departure municipality
+Departure province
+COROP area of departure point
+Metropolitan region Amsterdam departure point
+Metropolitan region Rotterdam Den Haag departure point
+Province of Utrecht departure point
+Arrival area
+Postal code of arrival point
+Postal code of arrival point abroad
+Arrival municipality
+Arrival province
+COROP area of arrival point
+Metropolitan region Amsterdam arrival point
+Metropolitan region Rotterdam Den Haag arrival point
+Province of Utrecht arrival point
+Dutch postal code border crossing
+Dutch municipality border crossing
+Foreign postal code border crossing
+Trip distance in the Netherlands (in hectometers)
+Trip distance class in the Netherlands
+Main transport mode of trip
+Role in the main transport mode
+Main transport mode class of trip
+Departure hour of trip
+Departure minute of trip
+Departure time class
+Arrival hour of trip
+Arrival minute of trip
+Travel duration in the Netherlands (in minutes)
+Travel duration class in the Netherlands
+Activity duration (in minutes)
+Child(ren) under 6 years old accompanying
+Sequence of work-related trips
+Number of visited addresses in trip series
+All addresses in the same town
+Place name 1
+Place name 2
+Place name 3
+Place name 4
+Place name 5
+Distance of trip series in the Netherlands (in hectometers)
+Distance of trip series abroad (in hectometers)
+First transport mode of trip series
+Second transport mode of trip series
+Third transport mode of trip series
+Fourth transport mode of trip series
+Start hour of series
+Start minute of series
+End hour of series
+End minute of series
+Correction from trips to segments
+Entirely foreign trip removed
+New trip segment
+Unique ID for each trip segment
+Segment number
+Segment distance in the Netherlands (in hectometers)
+Segment distance abroad (in hectometers)
+Segment distance class in the Netherlands
+Segment transport mode
+Role in segment transport mode
+Number of car occupants
+Segment transport mode class
+Segment departure hour
+Segment departure minute
+Segment arrival hour
+Segment arrival minute
+Segment travel duration in the Netherlands (in minutes)
+Segment travel duration abroad (in minutes)
+Departure station of train segment
+Arrival station of train segment
+Group size of train travel party
+Correction due to speed
+Flight segment removed
+Household weighting factor
+Person weighting factor
+Trip weighting factor
