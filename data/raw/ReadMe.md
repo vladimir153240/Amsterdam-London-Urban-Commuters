@@ -1,22 +1,11 @@
 # Raw Data Access & Setup
 
-## Quick Start 
+For the purposes of this project the raw_data is currently stored at: https://drive.google.com/drive/folders/12vy_0574lDJ9U7t6vDy4DTOHAFfWpesc?usp=sharing.
 
-This folder contains Parquet-compressed version for Amsterdam Data and fildered csv dataset for UK 2023. These two files are uploaded to save memory and reproduce the project via the notebooks in the implementation_notebooks.
+To access the data used in the analysis_notebooks access the folder raw_data. This folder contais the original sav file for Amsterdam and 5 tab files for London. The files are heavy and must be downloaded locally to reproduce the analysis_notebooks.    
 
-```python
-import pandas as pd
+To access the data used in the implementation notebooks go to the folder "implementation_data". This folder contains Parquet-compressed version for Amsterdam Data and fildered csv dataset for UK 2023. These two files are uploaded to save memory and reproduce the project via the notebooks in the implementation_notebooks.   
 
-# Amsterdam
-df_am = pd.read_parquet('data/raw/odin/odin_2023_raw.parquet')
-
-# London (2023 only)
-df_lnd = pd.read_csv('data/raw/london/raw/uk_data_2023.csv')
-```
-
-**Expected sizes after loading:**
-- Amsterdam: 681 rows (commuting trips)
-- London: 25,188 rows (commuting trips)
 
 ---
 
